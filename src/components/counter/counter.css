@@ -1,0 +1,14 @@
+.counter-box {
+  background: #fffad3;
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 31%;
+  height: 14.3%;
+}
+
+.container {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  line-height: 100%;
+}

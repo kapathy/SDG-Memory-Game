@@ -1,0 +1,33 @@
+.play-again-button {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 17px;
+  width: 20vw;
+  background: #faf2d6;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  text-transform: uppercase;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: orange;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}

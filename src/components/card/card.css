@@ -1,0 +1,29 @@
+.card-container {
+  display: inline-block;
+  border: 6px solid #ffe589;
+  background: #ffe589;
+}
+
+.card-container.clicked .flipper {
+  transform: rotateY(180deg);
+}
+
+.flipper {
+  transition: 0.4s;
+  transform-style: preserve-3d;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  left: 0;
+  top: 0;
+}
+
+.back {
+  transform: rotateY(0deg);
+}
+
+.front {
+  transform: rotateY(180deg);
+}
